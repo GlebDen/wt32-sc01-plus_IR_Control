@@ -259,15 +259,6 @@ void setup() {
 }
 
 void loop() {
-    // if (!screen_is_off && (millis() - last_activity_time > INACTIVITY_TIMEOUT_MS)) {
-    //     Serial.println("Inactivity timeout. Turning screen off.");
-    //     // It's good to get brightness again in case it was changed by other means
-    //     if (lcd.getPanel()->getLight() != nullptr) last_brightness_before_off = lcd.getBrightness();
-    //     if (last_brightness_before_off == 0 && lcd.getPanel()->getLight() != nullptr) last_brightness_before_off = 255; // Ensure we have a valid value to restore
-        
-    //     lcd.setBrightness(0);
-    //     screen_is_off = true;
-    // }
     if (!screen_is_off) { // If screen is currently on
         if (millis() - last_activity_time > INACTIVITY_TIMEOUT_MS) {
             Serial.println("Inactivity timeout. Preparing for light sleep.");
