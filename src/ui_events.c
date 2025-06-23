@@ -38,7 +38,7 @@ void ui_event_uic_fn_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_fn clicked");
-        send_sirc15_command(0xFE, 0x22); // FUNCTION FE???
+        send_sirc15_command(0x2e, 0x22); // FUNCTION FE???
     }
 }
 
@@ -183,7 +183,7 @@ void ui_event_uic_yes_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_yes clicked");
-        send_sirc15_command(0x09, 0x26); // Yes/Enter ???????????????
+        send_sirc15_command(0x08, 0x26); // Yes/Enter ?
     }
 }
 
@@ -207,7 +207,7 @@ void ui_event_uic_more_ten_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_more_ten clicked");
-        send_sirc15_command(0xb0, 0x26); // >10 ????????????
+        send_sirc15_command(0xb0, 0x26); // >10 ?????
     }
 }
 
@@ -215,7 +215,7 @@ void ui_event_uic_no_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_no clicked");
-        send_sirc15_command(0x00, 0x0F); // No/Cancel -------------------------------
+        send_sirc15_command(0xf0, 0x26); // No/Cancel -------------------------------
     }
 }
 
