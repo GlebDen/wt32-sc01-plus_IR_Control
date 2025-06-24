@@ -215,7 +215,7 @@ void ui_event_uic_no_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_no clicked");
-        send_sirc15_command(0xf0, 0x26); // No/Cancel -------------------------------
+        send_sirc15_command(0xf0, 0x26); // No/Cancel
     }
 }
 
@@ -344,7 +344,7 @@ void ui_event_uic_dspl_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_dspl clicked");
-        send_sirc15_command(0x38, 0x22); // Display
+        send_sirc15_command(0x38, 0x26); // Display
     }
 }
 
