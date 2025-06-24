@@ -38,7 +38,7 @@ void ui_event_uic_fn_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_fn clicked");
-        send_sirc15_command(0x2e, 0x22); // FUNCTION (switch between MD, CD, Network)
+        send_sirc15_command(0xe2, 0x22); // FUNCTION (switch between MD, CD, Network)
     }
 }
 
