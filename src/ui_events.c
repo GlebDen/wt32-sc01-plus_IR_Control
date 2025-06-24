@@ -264,7 +264,7 @@ void ui_event_uic_ntwk_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_ntwk clicked");
-        send_sirc15_command(0xc2, 0x22); // Network or E2 or FE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        send_sirc15_command(0xc2, 0x22); // Network 
     }
 }
 
@@ -344,7 +344,7 @@ void ui_event_uic_dspl_clicked(lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if(event_code == LV_EVENT_CLICKED) {
         LV_LOG_USER("uic_dspl clicked");
-        send_sirc15_command(0x38, 0x22); // Display 39 ? 22 ? ???????????????????? 
+        send_sirc15_command(0x38, 0x22); // Display
     }
 }
 
