@@ -12,6 +12,6 @@ Connection between Main module and Speaker with amplifier:
 3. Gnd
 4. Gnd
 5. Stby ??
-6. In Left
+6. In Left Ch.
 7. Gnd
-8. In Right
+8. In Right Ch.
