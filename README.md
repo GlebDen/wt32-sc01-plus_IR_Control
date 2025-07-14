@@ -5,7 +5,8 @@ wt32-sc01-plus IR Remote control for Sony LAM-Z05
 Additional info. 
 Connection between Main module and Speaker with amplifier:
 
-<img width="738" height="508" alt="screenshot 313" src="https://github.com/user-attachments/assets/80bcad0c-0771-4830-91b4-8e156e461bcf" />
+<img width="699" height="530" alt="screenshot 314" src="https://github.com/user-attachments/assets/a0973476-5c6f-4ae3-88b2-09fe7fefd788" />
+
 
 1. Vdd
 2. Vdd
