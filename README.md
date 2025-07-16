@@ -7,6 +7,7 @@ Connection between Main module and Speaker with amplifier:
 
 <img width="699" height="530" alt="screenshot 314" src="https://github.com/user-attachments/assets/a0973476-5c6f-4ae3-88b2-09fe7fefd788" />
 
+<img width="173" height="190" alt="screenshot 315" src="https://github.com/user-attachments/assets/c3cd8c44-f517-4292-a3e3-a0edc8b0419e" />
 
 1. Vdd
 2. Vdd
